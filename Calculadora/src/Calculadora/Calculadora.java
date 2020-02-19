@@ -2,7 +2,7 @@
 package cauculadora;
 
 import javax.swing.JOptionPane;
-public class Cauculadora {
+public class Calculadora {
 
   
     public static void main(String[] args) {  
@@ -21,13 +21,9 @@ public class Cauculadora {
       
         String resp =
             JOptionPane.showInputDialog("escolha uma operação:"
-                    + " 1-para soma" +
-" 2-para subtração" +
-" 3-para multiplicação" +
-" 4-para divisão");
+                    + " 1-para soma" + " 2-para subtração" + " 3-para multiplicação" + " 4-para divisão");
         
-                
-        if(resp.equals("1")){
+      if(resp.equals("1")){
             double soma=numero1+numero2;
             operacao=soma;
         }else{
@@ -42,20 +38,10 @@ public class Cauculadora {
                     if(resp.equals("4")){
                         double divisao=numero1/numero2;
                         operacao=divisao;
-                    }
-                }
-                
+              }
             }
+          }
         }
-        
-        JOptionPane.showMessageDialog(null,"O resultado da operação escolhida é:"+operacao);
-        
-        
-        
-        
-        
-        
-        
-    }
-    
-}
+        JOptionPane.showMessageDialog(null,"O resultado da operação escolhida é:"+operacao);  
+    } 
+  }
