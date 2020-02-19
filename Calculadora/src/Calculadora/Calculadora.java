@@ -1,5 +1,5 @@
 
-package cauculadora;
+package calculadora;
 
 import javax.swing.JOptionPane;
 public class Calculadora {
